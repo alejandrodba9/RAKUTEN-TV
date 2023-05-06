@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.todas-p {
+    display: flex;
+    flex-direction: row;
+    margin: 0 5%;
+}
+
+
+.todas-p img {
+    width: 200px;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
