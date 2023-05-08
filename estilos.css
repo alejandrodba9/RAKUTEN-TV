@@ -4,10 +4,31 @@
     box-sizing: border-box;
 }
 
+.port-grande{
+    width: 50%;
+    height: 500%;
+    margin: 0 25%;
+}
+
+/* .titulo{
+    width: 50%;
+    height: 500%;
+    margin: 0 25%;
+    justify-content: center;
+    text-align: center;
+} */
+
+.port-grande:hover{
+    -webkit-transform:scale(1.05);
+    transform:scale(1.05);
+    box-shadow: 7px 13px 37px #ff0000;
+}
+
 .todas-p {
     display: flex;
     flex-direction: row;
-    margin: 0 5%;
+    justify-content: center;
+    margin: 14 14%;
 }
 
 
@@ -21,9 +42,22 @@ h2{
 }
 
 h1{
-    color: #181717f0;
+    color: transparent;
 }
 
 #espacio{
-    color: #181717f0;
+    color: transparent;
 }
+
+.portada{
+    border: 50px #fff;
+    text-decoration: overline red;
+
+}
+
+.portada:hover{
+    -webkit-transform:scale(0.10);
+    transform:scale(0.95);
+    box-shadow: 7px 13px 37px #ff0000;
+}
+
