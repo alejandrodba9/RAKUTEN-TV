@@ -6,9 +6,6 @@
 }
 
 header{
-/*     position: fixed;
-    top: 0;
-    left: 0; */
     width: 100%;
     padding: 20px 100px;
     background: black;
@@ -28,6 +25,10 @@ header{
     width: 330px;
 }
 
+.logo:hover{
+    background-color: blue;
+}
+
 .navigation{
     display: flex;
     justify-content: space-between;
@@ -43,6 +44,10 @@ button{
     color: #fff;
 }
 
+.gris:hover{
+    background-color: rgb(192, 25, 25);
+}
+
 .btn-regis{
     text-decoration: none;
     height: 50PX;
@@ -50,6 +55,10 @@ button{
     background-color: rgb(192, 25, 25);
     color: #000;
     
+}
+
+.btn-regis:hover{
+    background-color: blue;
 }
 
 .btn-entrar{
@@ -77,16 +86,9 @@ body{
     background-color: rgba(0, 0, 0, 0.904);
 }
 
-.btn-regis:hover{
-    background-color: #a86725;
-}
-
 .btn-entrar:hover{
-    background-color: #3d3838;
-}
-
-.gris:hover{
-    background-color: #3d3838;
+    color: black;
+    background-color: rgb(192, 25, 25);
 }
 
 @media (max-width: 1385px){

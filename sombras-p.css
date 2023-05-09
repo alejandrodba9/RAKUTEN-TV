@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#rojo:hover{
+    box-shadow: 7px 13px 37px #ff0000;
+}
+
+#naranja:hover{
+    box-shadow: 7px 13px 37px rgb(255, 94, 0);
+}
+
+#azul:hover{
+    box-shadow: 7px 13px 37px rgb(0, 89, 255);
+}
+
+#morado:hover{
+    box-shadow: 7px 13px 37px rgb(84, 3, 160);
+}
+
+#verde:hover{
+    box-shadow: 7px 13px 37px green;
+}
+
+#azul-claro:hover{
+    box-shadow: 7px 13px 37px rgb(0, 238, 255);
+}
+
+#amarillo:hover{
+    box-shadow: 7px 13px 37px rgb(241, 209, 25);
+}
+
+#turqui:hover{
+    box-shadow:13px 13px 37px #0C2E36
+}

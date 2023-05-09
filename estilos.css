@@ -4,24 +4,23 @@
     box-sizing: border-box;
 }
 
+.prox{
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .port-grande{
     width: 50%;
     height: 500%;
     margin: 0 25%;
 }
 
-/* .titulo{
-    width: 50%;
-    height: 500%;
-    margin: 0 25%;
-    justify-content: center;
-    text-align: center;
-} */
-
 .port-grande:hover{
     -webkit-transform:scale(1.05);
     transform:scale(1.05);
-    box-shadow: 7px 13px 37px #ff0000;
+    box-shadow: 7px 13px 37px rgb(0, 238, 255);
 }
 
 .todas-p {
@@ -41,7 +40,7 @@ h2{
     color: #fff;
 }
 
-h1{
+.transparent{
     color: transparent;
 }
 
@@ -58,6 +57,5 @@ h1{
 .portada:hover{
     -webkit-transform:scale(0.10);
     transform:scale(0.95);
-    box-shadow: 7px 13px 37px #ff0000;
 }
 
