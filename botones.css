@@ -56,6 +56,8 @@ button{
 }
 
 .btn-regis{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: none;
     height: 50PX;
     width: 120px;
@@ -69,8 +71,9 @@ button{
 }
 
 .btn-entrar{
+    font-size: 20px;
     text-decoration: none;
-    height: 30PX;
+    height: 50PX;
     width: 120px;
     background-color: rgb(0, 0, 0);
     color: #fff;
@@ -90,11 +93,20 @@ a{
 }
 
 input{
-    background-color: rgba(44, 41, 41, 0.979);
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    width: 240px;
+    color: #000;
+    background-color: #fff;
     margin: auto;
 }
 
-
+input:hover{
+    background-color: #c01818;
+    
+}
 
 @media (max-width: 1385px){
     .estreno{
